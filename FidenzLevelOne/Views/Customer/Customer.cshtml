@@ -1,0 +1,79 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Dashboard</title>
+    <style>
+        /* Basic styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .option {
+            margin: 10px 0;
+        }
+
+        .input-box {
+            display: none;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>User Dashboard</h1>
+
+        <div class="option">
+            <label for="taskSelect">Select a Task:</label>
+            <select id="taskSelect">
+                <option value="">Choose an option</option>
+                <option value="editCustomer">Edit Customer</option>
+                <option value="getDistance">Get Distance</option>
+                <option value="searchCustomers">Search Customers</option>
+                <option value="groupedByZipCode">Grouped by Zip Code</option>
+            </select>
+        </div>
+
+        <div id="editCustomer" class="input-box">
+            <!-- Input fields for editing customer -->
+            <!-- You can customize the form inputs based on your requirements -->
+        </div>
+
+        <div id="getDistance" class="input-box">
+            <!-- Input fields for getting distance -->
+            <!-- You can customize the form inputs based on your requirements -->
+        </div>
+
+        <div id="searchCustomers" class="input-box">
+            <!-- Input fields for searching customers -->
+            <!-- You can customize the form inputs based on your requirements -->
+        </div>
+
+        <div id="groupedByZipCode" class="input-box">
+            <!-- No input fields needed for this task -->
+        </div>
+
+        <div id="output">
+            <!-- Output area for displaying results -->
+        </div>
+    </div>
+
+    <script>
+    </script>
+</body>
+</html>
